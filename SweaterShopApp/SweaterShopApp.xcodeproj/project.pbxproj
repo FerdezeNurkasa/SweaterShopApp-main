@@ -11,6 +11,14 @@
 		D8200F152B89C6260029ECCA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8200F142B89C6260029ECCA /* ContentView.swift */; };
 		D8200F172B89C6320029ECCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8200F162B89C6320029ECCA /* Assets.xcassets */; };
 		D8200F1A2B89C6320029ECCA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8200F192B89C6320029ECCA /* Preview Assets.xcassets */; };
+		D8200F242B89C7730029ECCA /* SweaterShopModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D8200F212B89C7720029ECCA /* SweaterShopModel.xcdatamodeld */; };
+		D8200F252B89C7730029ECCA /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8200F232B89C7720029ECCA /* PersistenceController.swift */; };
+		D8200F272B89C7A50029ECCA /* Order+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8200F262B89C7A40029ECCA /* Order+CoreDataClass.swift */; };
+		D8200F292B89C7B60029ECCA /* Order+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8200F282B89C7B50029ECCA /* Order+CoreDataProperties.swift */; };
+		D8200F2B2B89C7F20029ECCA /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8200F2A2B89C7F10029ECCA /* CartManager.swift */; };
+		D8200F2D2B89C7FE0029ECCA /* PaymentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8200F2C2B89C7FE0029ECCA /* PaymentHandler.swift */; };
+		D8200F312B89C8850029ECCA /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8200F2F2B89C8840029ECCA /* Order.swift */; };
+		D8200F322B89C8850029ECCA /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8200F302B89C8850029ECCA /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		D8200F142B89C6260029ECCA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D8200F162B89C6320029ECCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8200F192B89C6320029ECCA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D8200F222B89C7720029ECCA /* SweaterShopModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SweaterShopModel.xcdatamodel; sourceTree = "<group>"; };
+		D8200F232B89C7720029ECCA /* PersistenceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		D8200F262B89C7A40029ECCA /* Order+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Order+CoreDataClass.swift"; path = "../../../Downloads/SweaterShopApp-main/SweaterShopApp/Order+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D8200F282B89C7B50029ECCA /* Order+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Order+CoreDataProperties.swift"; path = "../../../Downloads/SweaterShopApp-main/SweaterShopApp/Order+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D8200F2A2B89C7F10029ECCA /* CartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CartManager.swift; path = "../../../../Downloads/SweaterShopApp-main/SweaterShopApp/CartManager.swift"; sourceTree = "<group>"; };
+		D8200F2C2B89C7FE0029ECCA /* PaymentHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PaymentHandler.swift; path = "../../../../Downloads/SweaterShopApp-main/SweaterShopApp/PaymentHandler.swift"; sourceTree = "<group>"; };
+		D8200F2F2B89C8840029ECCA /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		D8200F302B89C8850029ECCA /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +51,8 @@
 		D8200F062B89C6260029ECCA = {
 			isa = PBXGroup;
 			children = (
+				D8200F262B89C7A40029ECCA /* Order+CoreDataClass.swift */,
+				D8200F282B89C7B50029ECCA /* Order+CoreDataProperties.swift */,
 				D8200F112B89C6260029ECCA /* SweaterShopApp */,
 				D8200F102B89C6260029ECCA /* Products */,
 			);
@@ -51,6 +69,10 @@
 		D8200F112B89C6260029ECCA /* SweaterShopApp */ = {
 			isa = PBXGroup;
 			children = (
+				D8200F2E2B89C8840029ECCA /* Models */,
+				D8200F2C2B89C7FE0029ECCA /* PaymentHandler.swift */,
+				D8200F2A2B89C7F10029ECCA /* CartManager.swift */,
+				D8200F202B89C7720029ECCA /* DataModel */,
 				D8200F122B89C6260029ECCA /* SweaterShopAppApp.swift */,
 				D8200F142B89C6260029ECCA /* ContentView.swift */,
 				D8200F162B89C6320029ECCA /* Assets.xcassets */,
@@ -65,6 +87,26 @@
 				D8200F192B89C6320029ECCA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D8200F202B89C7720029ECCA /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				D8200F212B89C7720029ECCA /* SweaterShopModel.xcdatamodeld */,
+				D8200F232B89C7720029ECCA /* PersistenceController.swift */,
+			);
+			name = DataModel;
+			path = "../../../../Downloads/SweaterShopApp-main/SweaterShopApp/DataModel";
+			sourceTree = "<group>";
+		};
+		D8200F2E2B89C8840029ECCA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D8200F2F2B89C8840029ECCA /* Order.swift */,
+				D8200F302B89C8850029ECCA /* Product.swift */,
+			);
+			name = Models;
+			path = "../../../../Downloads/SweaterShopApp-main/SweaterShopApp/Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +179,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8200F292B89C7B60029ECCA /* Order+CoreDataProperties.swift in Sources */,
 				D8200F152B89C6260029ECCA /* ContentView.swift in Sources */,
+				D8200F2B2B89C7F20029ECCA /* CartManager.swift in Sources */,
+				D8200F312B89C8850029ECCA /* Order.swift in Sources */,
+				D8200F2D2B89C7FE0029ECCA /* PaymentHandler.swift in Sources */,
 				D8200F132B89C6260029ECCA /* SweaterShopAppApp.swift in Sources */,
+				D8200F242B89C7730029ECCA /* SweaterShopModel.xcdatamodeld in Sources */,
+				D8200F322B89C8850029ECCA /* Product.swift in Sources */,
+				D8200F272B89C7A50029ECCA /* Order+CoreDataClass.swift in Sources */,
+				D8200F252B89C7730029ECCA /* PersistenceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +394,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D8200F212B89C7720029ECCA /* SweaterShopModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D8200F222B89C7720029ECCA /* SweaterShopModel.xcdatamodel */,
+			);
+			currentVersion = D8200F222B89C7720029ECCA /* SweaterShopModel.xcdatamodel */;
+			path = SweaterShopModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D8200F072B89C6260029ECCA /* Project object */;
 }
